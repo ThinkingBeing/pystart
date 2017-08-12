@@ -8,5 +8,5 @@ class TestMain(unittest.TestCase):
     def test_whomai(self):
         """check my name"""
         my_name = main.whoami()
-        self.assertEqual("ligf", my_name)
+        self.assertEqual("ligf2", my_name)
 
