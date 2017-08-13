@@ -10,3 +10,8 @@ class TestMain(unittest.TestCase):
         my_name = main.whoami()
         self.assertEqual("ligf2", my_name)
 
+    def test_whoami_include(self):
+        """check name must include ligf"""
+        my_name = main.whoami()
+        self.assertIn("ligf", my_name)
+
